@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dropdown Text</title>
+<style type="text/css">
+  .Dropdown{
+
+    position: relative;
+    display: inline-block;
+  }
+.Dropdown-content{
+
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  color: #fff;
+}
+
+.Dropdown:hover .Dropdown-content {
+  display: block;
+}
+
+</style>
+  
+
+</head>
+<body>
+
+<h2>Hoverbale Text</h2>
+
+<p>Move the mouse over text to see the effect.</p>
+
+<div class="Dropdown">
+  
+  <span>Mouse over me</span>
+
+<div class="Dropdown-content">
+  
+  <p>Hello World!</p>
+
+</div>
+
+</div>
+
+
+</body>
+</html>
